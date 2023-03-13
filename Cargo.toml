@@ -6,7 +6,8 @@ authors = ["Moritz Hoffmann <antiguru@gmail.com>"]
 
 description = "Derive Clone including clone_from"
 
-license = "Apache-2.0/MIT"
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/antiguru/clone_from"
 
 
 [lib]
