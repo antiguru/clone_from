@@ -1,0 +1,18 @@
+[package]
+name = "clone_from"
+version = "0.1.0"
+edition = "2021"
+authors = ["Moritz Hoffmann <antiguru@gmail.com>"]
+
+description = "Derive Clone including clone_from"
+
+license = "Apache-2.0/MIT"
+
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = {version = "1.0", features = []}
